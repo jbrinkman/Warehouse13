@@ -1,0 +1,11 @@
+*.suo
+*.user
+EventLog/bin/
+EventLog/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+EventLog/obj/
+packages/
+simple-sidebar/
+simple-sidebar.zip
+test/
+index.html
+main.css

@@ -1,0 +1,292 @@
+﻿article.brown {
+  color: #271718;
+  color: #472a2b;
+  color: #b78687;
+  color: #e7d6d6;
+  color: #fdfcfc;
+}
+article.gray {
+  color: #b3b3b3;
+  color: #e6e6e6;
+}
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+.text-white {
+  color: white;
+}
+.bg-brown {
+  background: #472a2b;
+  color: white;
+}
+.bg-brown-dark {
+  background: #271718;
+  color: white;
+}
+.bg-brown-light {
+  background: #b78687;
+  color: white;
+}
+.bg-red {
+  background: #ef3e42;
+  color: white;
+}
+.bg-red-dark {
+  background: #b80f13;
+  color: white;
+}
+.bg-red-light {
+  background: #f79c9e;
+  color: white;
+}
+.bg-blue {
+  background: #00a4e4;
+  color: white;
+}
+.bg-blue-dark {
+  background: #005b7e;
+  color: white;
+}
+.bg-blue-light {
+  background: #7edbff;
+  color: white;
+}
+.bg-orange {
+  background: #f68a33;
+  color: white;
+}
+.bg-orange-dark {
+  background: #bb5808;
+  color: white;
+}
+.bg-orange-light {
+  background: #fac295;
+  color: white;
+}
+.bg-purple {
+  background: #7d4199;
+  color: white;
+}
+.bg-purple-dark {
+  background: #512a63;
+  color: white;
+}
+.bg-purple-light {
+  background: #c49dd6;
+  color: white;
+}
+.bg-dark {
+  background: #271718;
+  color: white;
+}
+::selection {
+  background: #00a4e4;
+  color: white;
+}
+::-moz-selection {
+  background: #00a4e4;
+  color: white;
+}
+span.block {
+  display: block;
+}
+.no-margin {
+  margin: 0;
+}
+.no-border {
+  border: 0;
+}
+#leftnav {
+  z-index: 11;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: -220px;
+  width: 220px;
+  padding: 0;
+  background-color: #fdfcfc;
+  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: -blackberry-touch;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 3px;
+}
+@media (min-width: 768px) {
+  #leftnav {
+    left: 0;
+  }
+}
+#content {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: -blackberry-touch;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  padding-top: 1em;
+}
+@media (min-width: 768px) {
+  #content {
+    top: 50px;
+    width: auto;
+    left: 220px;
+  }
+}
+.navbar-brown {
+  background: #271718;
+  color: white;
+  border-width: 0;
+  border-radius: 0;
+  z-index: 20;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px 1px;
+}
+.navbar-brown .navbar-brand,
+.navbar-brown .navbar-text,
+.navbar-brown .navbar-nav > li > a {
+  color: #fdfcfc;
+}
+.navbar-brown .navbar-brand:hover,
+.navbar-brown .navbar-brand:focus,
+.navbar-brown .navbar-nav > li > a:hover,
+.navbar-brown .navbar-nav > li > a:focus {
+  color: #00a4e4;
+  background-color: transparent;
+}
+.navbar-brown .navbar-nav > .active > a,
+.navbar-brown .navbar-nav > .active > a:hover,
+.navbar-brown .navbar-nav > .active > a:focus {
+  color: #00a4e4;
+  background-color: #fdfcfc;
+}
+.navbar-brown .navbar-nav > .disabled > a,
+.navbar-brown .navbar-nav > .disabled > a:hover,
+.navbar-brown .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-brown .navbar-toggle {
+  border-color: #fdfcfc;
+}
+.navbar-brown .navbar-toggle:hover,
+.navbar-brown .navbar-toggle:focus {
+  background-color: #fdfcfc;
+}
+.navbar-brown .navbar-toggle .icon-bar {
+  background-color: #fdfcfc;
+}
+.navbar-brown .navbar-collapse,
+.navbar-brown .navbar-form {
+  border-color: #fdfcfc;
+}
+.navbar-brown .navbar-nav > .open > a,
+.navbar-brown .navbar-nav > .open > a:hover,
+.navbar-brown .navbar-nav > .open > a:focus {
+  color: #00a4e4;
+  background-color: #fdfcfc;
+}
+@media (max-width: 767px) {
+  .navbar-brown {
+    background-image: none;
+  }
+  .navbar-brown .navbar-collapse {
+    background-color: #fdfcfc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+#leftnav > ul > li {
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+#leftnav > ul > li > a {
+  position: relative;
+  display: block;
+  z-index: 1;
+  height: 50px;
+  padding: 15px 15px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #271718;
+  border-bottom: 1px solid #ddd;
+}
+#leftnav > ul > li > a > i {
+  position: relative;
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-right: 1px solid #e5e5e5;
+  text-align: center;
+  margin: -15px 10px -15px -15px;
+}
+#leftnav > ul > li > a > i:before {
+  position: relative;
+  z-index: 1;
+}
+#leftnav > ul > li > a > i .icon-bg {
+  position: absolute;
+  z-index: 0;
+  left: -45px;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: left 0.2s ease-in-out;
+  -moz-transition: left 0.2s ease-in-out;
+  -o-transition: left 0.2s ease-in-out;
+  transition: left 0.2s ease-in-out;
+}
+#leftnav > ul > li.open > a > i .icon-bg,
+#leftnav > ul > li.active > a > i .icon-bg,
+#leftnav > ul > li:hover > a > i .icon-bg {
+  left: 0;
+}
+#leftnav > ul > li.open > a,
+#leftnav > ul > li.active > a,
+#leftnav > ul > li:hover > a {
+  background-color: #e6e6e6;
+  color: #ef3e42;
+}
+#leftnav > ul > li.open > a > i,
+#leftnav > ul > li.active > a > i,
+#leftnav > ul > li:hover > a > i {
+  color: #fdfcfc;
+}
+#leftnav a:hover {
+  text-decoration: none;
+}
+/* Bootstrap Overrides */
+/* Just for dev purposes */
+.swatch > div {
+  margin: .5rem;
+  padding: .5rem;
+  text-align: center;
+}
