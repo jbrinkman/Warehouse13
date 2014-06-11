@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventLog", "EventLog\EventLog.csproj", "{1B4EDFC1-495C-4681-AFBA-2FBB260B7884}"
 EndProject
@@ -13,6 +13,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		simple-sidebar\simple-sidebar.html = simple-sidebar\simple-sidebar.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{1E2F4DDB-7C4D-4836-B84C-95CC1928DF93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDB", "MongoDB", "{6F6B2E2F-C96E-49D6-9E81-30CA0FAD3A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventLog.Data.MongoDB", "Data\EventLog.Data.MongoDB\EventLog.Data.MongoDB.csproj", "{E53B7032-359A-426F-BC97-370C1F56D231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySimpleRepository", "Data\MySimpleRepository\MySimpleRepository.csproj", "{4C26190E-E42F-45C7-AD65-DD7D4714BCD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,8 +31,21 @@ Global
 		{1B4EDFC1-495C-4681-AFBA-2FBB260B7884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B4EDFC1-495C-4681-AFBA-2FBB260B7884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B4EDFC1-495C-4681-AFBA-2FBB260B7884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53B7032-359A-426F-BC97-370C1F56D231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53B7032-359A-426F-BC97-370C1F56D231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53B7032-359A-426F-BC97-370C1F56D231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53B7032-359A-426F-BC97-370C1F56D231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C26190E-E42F-45C7-AD65-DD7D4714BCD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C26190E-E42F-45C7-AD65-DD7D4714BCD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C26190E-E42F-45C7-AD65-DD7D4714BCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C26190E-E42F-45C7-AD65-DD7D4714BCD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F6B2E2F-C96E-49D6-9E81-30CA0FAD3A44} = {1E2F4DDB-7C4D-4836-B84C-95CC1928DF93}
+		{E53B7032-359A-426F-BC97-370C1F56D231} = {6F6B2E2F-C96E-49D6-9E81-30CA0FAD3A44}
+		{4C26190E-E42F-45C7-AD65-DD7D4714BCD9} = {6F6B2E2F-C96E-49D6-9E81-30CA0FAD3A44}
 	EndGlobalSection
 EndGlobal

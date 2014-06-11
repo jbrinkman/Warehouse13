@@ -9,3 +9,7 @@ simple-sidebar.zip
 test/
 index.html
 main.css
+Data/EventLog.Data.MongoDB/bin/
+Data/EventLog.Data.MongoDB/obj/
+Data/MySimpleRepository/bin/
+Data/MySimpleRepository/obj/

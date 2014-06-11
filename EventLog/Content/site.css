@@ -81,6 +81,10 @@ body {
   background: #271718;
   color: white;
 }
+.bg-brown-invert {
+  background: white;
+  color: #472a2b !important;
+}
 ::selection {
   background: #00a4e4;
   color: white;
